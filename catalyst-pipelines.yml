@@ -1,0 +1,22 @@
+version: 1.0
+pipeline-when:
+    equal:
+          - << event.ref >>
+          - refs/heads/main
+     
+jobs:
+  hello:
+    steps:
+      - echo "Hello"
+  world:
+    steps:
+      - echo "World"
+  hello-world:
+    steps:
+      - echo "Hello World!"
+stages:
+  - name: build
+    jobs:
+      - - hello
+        - world
+      - hello-world
