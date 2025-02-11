@@ -1,0 +1,9 @@
+{
+  "functions": {
+    "targets": [
+      "pipeline_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  }
+}
