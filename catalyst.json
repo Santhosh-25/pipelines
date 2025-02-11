@@ -1,7 +1,8 @@
 {
   "functions": {
     "targets": [
-      "pipeline_function"
+      "pipeline_function",
+      "pipeline_test"
     ],
     "ignore": [],
     "source": "functions"
